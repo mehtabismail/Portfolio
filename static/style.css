@@ -1,0 +1,44 @@
+body.background{
+  background: url(download.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section{
+  height: 30em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+div.text{
+margin-bottom: 20px;
+font-size:30px;
+color: white;
+}
+div.A{
+text-align: center;
+}
+div.B{
+text-align: center;
+}
+span.highlight{
+    color: #e31b6d
+}
+
+.button{
+text-align: center;
+margin: 0 auto;
+
+}
+
+div.btn{
+padding: 12px 50px 12px 20px;
+}
+div.header{
+text-align: center;
+}
+p.card-text{
+    text-align: center;
+}

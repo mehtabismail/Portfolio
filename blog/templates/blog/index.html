@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{%block test%}
+    {% for blog_variable in blogs.all %}
+        <img class="img-fluid" src="{{ blog_variable.image.url }}" width="200px" height="200px" />
+        <br>
+    <a href="#">
+        <h4>{{ blog_variable.title }}</h4>
+    </a>
+    {%endfor%}
+{%endblock%}
