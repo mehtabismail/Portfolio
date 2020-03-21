@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'project.apps.ProjectConfig',
     'about.apps.AboutConfig',
+    'certificates.apps.CertificatesConfig',
 ]
 
 MIDDLEWARE = [
